@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* searchbar  */
+
+.searchbar{
+    display: flex;
+    border-radius: 20px;
+}
+.searchbar i{
+    color: black;
+    font-size: large;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+}
+.searchbar input{
+  font-weight: bolder;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  
+}
+ 
+/* end search bar */
+
+/* logo */
+
+.logo{
+    height: 20px;
+}
+
+/* end logo */
+
+
+
+
+/* login section */
+
+.hidden1{
+    display: none;
+}
+
+/* end login section */
+
+
+
+
+/* media query for logo search and loginsection */
+
+@media screen and (max-width : 578px){
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+    .show{
+        display: none;
+    }
+    .hidden1{
+        text-align: right;
+        padding: 10px;
+        display: block;
+    }
+    
+}
+
+
+
+
+/* end of media query for logo search and loginsection */
+
+
+
+
+
+/* For responsivnessssss */
+
+.hidden3{
+    display: none!important;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+     padding: 3px;
+}
+
+.filter{
+    background-color: rgba(0,0,0,0.1);
+     padding: 3px;
+      border-radius: 5px;
+       font-weight: bold;
+}
+
+
+@media screen and (max-width : 578px){
+
+  
+.hidden3{
+    display: block!important;
+}
+
+.show3{
+    display: none;
+}
+
+}
+
+
+/* For responsivnessssss */
+
+
+
+
+
+
+
+/* header background section */
+
+.headerbackground{
+ width: 100%;
+ height: 100%;
+ margin: 0 auto;
+}
+
+/* end of header background section */
+
+
+
+
+
+/* thinner section */
+
+.thinnerSection{
+    margin: 0px auto;
+    width: 98%;
+
+}
+
+
+.nav .nav-link{
+    font-size: small;
+}
+
+.nav button{
+    font-size: small;
+
+}
+
+/* end thinner section */
+
+
+
+
+
+/* sidebar  */
+
+
+@media screen and (max-width : 770px){
+
+.hidden2{
+    display: none;
+}
+
+}
+
+
+/* end of sidebar  */
+
+
+
+
+
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+.span{
+    margin-left: 35px;
+}
+
+
+
+.hidden4{
+    margin-top: 10px!important;
+    display: none;
+    margin-left: 20px!important;
+}
+
+
+
+@media screen and (max-width : 578px){
+    
+    .hidden4{
+        
+        display: block;
+    }
+    
+}
